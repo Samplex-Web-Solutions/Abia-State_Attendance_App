@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sans: sans-serif;
+  font: 18px/145% var(--sans);
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
