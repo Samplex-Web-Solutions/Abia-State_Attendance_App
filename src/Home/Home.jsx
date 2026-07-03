@@ -34,7 +34,7 @@ const DownloadModal = ({ isOpen, progress, onClose }) => (
 const LandingPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [progress, setProgress] = useState(0);
-  const downloadLink = import.meta.env.VITE_DOWNLOAD_LINK;
+  const downloadLink = import.meta.env.VITE_APP_DOWNLOAD_LINK;
 
   const startDownload = () => {
     setIsModalOpen(true);
